@@ -1,0 +1,6 @@
+$public_path: "../";
+
+@mixin svg-background-image($name) {
+  background-image: url('#{$public_path}images/#{$name}.png');
+  background-image: none, url('#{$public_path}images/#{$name}.svg');
+}

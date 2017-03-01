@@ -1,0 +1,18 @@
+@import "../vars";
+@import "../mixins/svg-image";
+
+.banner {
+  padding-top: 82px;
+  height: 318px;
+  width: 100%;
+  background-color: $brand-colour;
+  color: white;
+
+  .logo-large {
+    margin-top: 12px;
+    width: 260px;
+    height: 260px;
+    float: right;
+    @include svg-background-image("StructLogo_BW_Light_Medium")
+  }
+}
