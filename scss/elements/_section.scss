@@ -1,0 +1,24 @@
+.container {
+  section {
+    margin-top: 54px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 54px;
+
+    h2:first-of-type {
+      margin-top: 0;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #646464;
+    }
+  }
+
+  hr.section-end {
+    border: 0;
+    height: 1px;
+    background: #E1E1E1;
+    background-image: linear-gradient(to right, #E1E1E1, #E1E1E1, #E1E1E1);
+  }
+}
