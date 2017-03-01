@@ -1,0 +1,60 @@
+@import "../vars";
+@import "../mixins/svg-image";
+@import "../mixins/unselectable";
+@import "../mixins/default-cursor";
+
+.navigation {
+  height: 82px;
+  background-color: $brand-colour;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: map-get($breakpoints, small)) {
+    height: 60px;
+  }
+
+  .brand-logo {
+    @include svg-background-image("StructLogo_BW_Small_Light")
+    width: 52px;
+    height: 52px;
+    margin-left: 16px;
+    display: inline-block;
+  }
+
+  .brand-name {
+    margin-left: 10px;
+    font-size: 1.8 * 1rem;
+    margin-bottom: 0.3 * 1rem;
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    @include unselectable();
+    @include default-cursor();
+
+    @media screen and (max-width: map-get($breakpoints, tiny)) {
+      display: none;
+    }
+  }
+
+  .nav-links {
+    margin-left: auto;
+    list-style: none;
+    overflow: hidden;
+    margin-right: 40px;
+
+    li {
+      display: inline;
+      list-style-type: none;
+      padding-left: 24px;
+
+      a, a:hover, a:active, a:visited {
+        text-decoration: none;
+        transition: color .25s ease-in-out;
+        outline: 0;
+      }
+
+      a { color: rgba(white, 0.7); }
+      a:hover, a:active, a:focus { color: white; }
+    }
+  }
+}

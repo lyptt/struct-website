@@ -1,9 +1,10 @@
 @import "../vars";
 @import "../mixins/svg-image";
+@import "../mixins/unselectable";
+@import "../mixins/default-cursor";
 
 .banner {
-  padding-top: 82px;
-  height: 318px;
+  min-height: 318px;
   width: 100%;
   background-color: $brand-colour;
   color: white;
@@ -11,26 +12,30 @@
   align-items: center;
 
   @media screen and (max-width: map-get($breakpoints, small)) {
-    height: 200px;
-    padding-top: 50px;
+    min-height: 180px;
+    justify-content: center;
   }
 
   .caption {
     margin-left: 44px;
+    margin-bottom: 44px;
     font-size: 1.8 * 1rem;
-    max-width: calc(100% - (44px + 260px));
     display: inline-block;
+    @include unselectable();
+    @include default-cursor();
 
     @media screen and (max-width: map-get($breakpoints, small)) {
-      max-width: 100%;
       margin-right: 44px;
+      text-align: center;
     }
   }
 
   .logo-large {
     width: 260px;
+    min-width: 260px;
     height: 260px;
     margin-left: auto;
+    margin-right: 20px;
     @include svg-background-image("StructLogo_BW_Light_Medium")
 
     @media screen and (max-width: map-get($breakpoints, small)) {
