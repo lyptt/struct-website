@@ -7,12 +7,34 @@
   width: 100%;
   background-color: $brand-colour;
   color: white;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: map-get($breakpoints, small)) {
+    height: 200px;
+    padding-top: 50px;
+  }
+
+  .caption {
+    margin-left: 44px;
+    font-size: 1.8 * 1rem;
+    max-width: calc(100% - (44px + 260px));
+    display: inline-block;
+
+    @media screen and (max-width: map-get($breakpoints, small)) {
+      max-width: 100%;
+      margin-right: 44px;
+    }
+  }
 
   .logo-large {
-    margin-top: 12px;
     width: 260px;
     height: 260px;
-    float: right;
+    margin-left: auto;
     @include svg-background-image("StructLogo_BW_Light_Medium")
+
+    @media screen and (max-width: map-get($breakpoints, small)) {
+      display: none;
+    }
   }
 }
