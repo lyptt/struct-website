@@ -42,6 +42,10 @@
     overflow: hidden;
     margin-right: 40px;
 
+    @media screen and (max-width: map-get($breakpoints, small)) {
+      margin-right: 16px;
+    }
+
     li {
       display: inline;
       list-style-type: none;

@@ -25,7 +25,8 @@
     @include default-cursor();
 
     @media screen and (max-width: map-get($breakpoints, small)) {
-      margin-right: 44px;
+      margin-left: 16px;
+      margin-right: 16px;
       text-align: center;
     }
   }
