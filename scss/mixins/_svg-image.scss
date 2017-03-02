@@ -1,4 +1,4 @@
-$public_path: "../";
+$public_path: "/";
 
 @mixin svg-background-image($name) {
   background-image: url('#{$public_path}images/#{$name}.png');

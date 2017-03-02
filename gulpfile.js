@@ -2,6 +2,7 @@ const gulp = require("gulp")
 const sass = require("gulp-sass")
 const browserSync = require("browser-sync").create()
 const sourcemaps = require('gulp-sourcemaps')
+const htmlmin = require('gulp-htmlmin')
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
@@ -24,3 +25,14 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.stream({match: '**/*.css'}))
 })
+
+gulp.task('copy-resources', function() {
+  return gulp.src(['images/**/*', 'css/**/*'], { "base" : "." })
+    .pipe(gulp.dest('build'))
+})
+
+gulp.task('build', ['sass', 'copy-resources'], function() {
+  return gulp.src('index.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('build'));
+});
