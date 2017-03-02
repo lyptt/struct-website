@@ -1,4 +1,5 @@
 @import "../vars";
+@import "../mixins/unselectable";
 
 .container {
   section {
@@ -73,6 +74,7 @@
       transition: all .25s ease-in-out;
       transition-property: color, border;
       text-transform: uppercase;
+      @include unselectable();
 
       @media screen and (max-width: map-get($breakpoints, small)) {
         align-self: center;
