@@ -5,8 +5,14 @@
 .full-illustration {
   @include svg-background-image("Struct_Illustration_1");
   @include unselectable();
-  width: 845px;
+  width: 746px;
   height: 169px;
   margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
   display: inline-block;
+
+  @media screen and (max-width: map-get($breakpoints, small)) {
+    display: none;
+  }
 }
