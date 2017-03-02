@@ -1,0 +1,12 @@
+@import "../vars";
+@import "../mixins/svg-image";
+@import "../mixins/unselectable";
+
+.full-illustration {
+  @include svg-background-image("Struct_Illustration_1");
+  @include unselectable();
+  width: 845px;
+  height: 169px;
+  margin-top: 40px;
+  display: inline-block;
+}

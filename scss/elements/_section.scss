@@ -1,5 +1,7 @@
 .container {
   section {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 54px;
     margin-left: 18px;
     margin-right: 18px;
@@ -8,10 +10,12 @@
     h2:first-of-type {
       margin-top: 0;
       text-transform: uppercase;
+      width: 100%;
     }
 
     p {
       color: #646464;
+      width: 100%;
     }
   }
 
