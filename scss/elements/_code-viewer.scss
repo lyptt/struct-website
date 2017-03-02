@@ -28,8 +28,10 @@
     border: 2px solid #E1E1E1;
     border-top: none;
     padding: 22px;
-    font-family: "Hack", sans-serif;
+    font-family: "Hack", monospace;
     font-size: 0.8 * 1rem;
     margin: 0;
+    word-wrap: break-word;
+    white-space: pre-wrap;
   }
 }

@@ -1,3 +1,5 @@
+@import "../vars";
+
 .container {
   section {
     display: flex;
@@ -6,6 +8,11 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 54px;
+
+    @media screen and (max-width: map-get($breakpoints, small)) {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
 
     h2:first-of-type {
       margin-top: 0;
@@ -24,6 +31,11 @@
     padding-bottom: 50px;
     align-items: center;
 
+    @media screen and (max-width: map-get($breakpoints, small)) {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
     .caption {
       flex: 1;
       font-size: 0.8 * 1rem;
@@ -33,6 +45,16 @@
       text-align: left;
       margin-left: auto;
       margin-right: 22px;
+
+      @media screen and (max-width: map-get($breakpoints, small)) {
+        max-width: 100%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        flex: none;
+        text-align: center;
+        margin-bottom: 20px;
+      }
     }
 
     .button, .button:visited {
@@ -51,6 +73,15 @@
       transition: all .25s ease-in-out;
       transition-property: color, border;
       text-transform: uppercase;
+
+      @media screen and (max-width: map-get($breakpoints, small)) {
+        align-self: center;
+        flex: none;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: inherit;
+        width: 50%;
+      }
     }
     .button:hover, .button:active {
       border: 2px solid lighten($brand-colour, 20%);
