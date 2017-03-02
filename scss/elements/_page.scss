@@ -8,3 +8,44 @@ html, body {
 .container {
   width: 100%;
 }
+
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.code-key {
+  color: darken($brand-colour, 30%);
+}
+
+.code-value {
+  color: $brand-colour;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+.inline-link {
+  color: #646464;
+  transition: color .25s ease-in-out;
+}
+
+.inline-link:hover, .inline-link:active, .inline-link:visited {
+  color: black;
+}
+
+.inline-link, .inline-link:hover, .inline-link:active, .inline-link:visited {
+  text-decoration: underline;
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}

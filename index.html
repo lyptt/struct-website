@@ -72,6 +72,62 @@
           specs are incredibly simple and expressive. Both YAML and JSON are supported file formats,
           so you can use whatever you're comfortable with.
         </p>
+        <div class="code-viewer">
+          <div class="title-bar">
+            <div class="control"></div>
+            <div class="control"></div>
+            <div class="control"></div>
+          </div>
+          <pre class="content">
+---
+<span class="code-key">version</span>: <span class="code-value">1.0.0</span>
+<span class="code-key">configurations</span>:
+  <span class="code-key">debug</span>:
+    <span class="code-key">profiles</span>:
+    - <span class="code-value">general:debug</span>
+    - <span class="code-value">ios:debug</span>
+  <span class="code-key">release</span>:
+    <span class="code-key">profiles</span>:
+    - <span class="code-value">general:release</span>
+    - <span class="code-value">ios:release</span>
+<span class="code-key">targets</span>:
+  <span class="code-key">MyApp</span>:
+    <span class="code-key">sources</span>: <span class="code-value">src</span>
+    <span class="code-key">i18n-resources</span>: <span class="code-value">res</span>
+    <span class="code-key">platform</span>: <span class="code-value">ios</span>
+    <span class="code-key">type</span>: <span class="code-value">":application"</span>
+    <span class="code-key">configuration</span>:
+      <span class="code-key">ASSETCATALOG_COMPILER_APPICON_NAME</span>: <span class="code-value">AppIcon</span>
+      <span class="code-key">INFOPLIST_FILE</span>: <span class="code-value">Info.plist</span>
+      <span class="code-key">PRODUCT_BUNDLE_IDENTIFIER</span>: <span class="code-value">uk.lyptt.MyApp</span></pre>
+        </div>
+      </section>
+      <hr class="section-end" />
+      <section id="build">
+        <h2>Build real Xcode projects</h2>
+        <p>
+          <span class="semibold">struct</span> generates real Xcode projects with all of the functionality you
+          use day to day. Even advanced features like linking to frameworks in subprojects, embedded binaries
+          and resource localization are supported.
+        </p>
+        <p>
+          <span class="semibold">struct</span> is improving all the time, with support more and more Xcode project
+          workflows being added regularly. If <span class="semibold">struct</span> is missing functionality you
+          require, <a href="https://www.github.com/lyptt/struct/issues/new" class="inline-link">raise a Github issue</a>.
+        </p>
+      </section>
+      <hr class="section-end" />
+      <section id="migrate">
+        <h2>Migrate to struct</h2>
+        <p>
+          Moving to <span class="semibold">struct</span> is easy. Migration support is built-in to struct, allowing you
+          to get existing projects up and running without having to start from scratch.
+        </p>
+        <p>
+          All Xcode projects created with Xcode 8.0 and up are supported for migration. <span class="semibold">struct</span>
+          has full support for Swift and Objective-C targets, along with unit tests, UI tests, and pretty much any
+          other target you can throw at it.
+        </p>
       </section>
     </div>
   </body>
