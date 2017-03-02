@@ -27,6 +27,7 @@
 
   @media screen and (max-width: map-get($breakpoints, small)) {
     width: calc(100% - 36px);
+    min-height: 160px;
     margin: 0;
     margin-bottom: 35px;
     flex: none;
@@ -51,5 +52,30 @@
   margin-right: 0;
   @media screen and (max-width: map-get($breakpoints, small)) {
     margin-bottom: 0;
+  }
+}
+
+.feature-panel.write {
+  @include svg-background-image("Feature_1_Illustration");
+  background-repeat: no-repeat;
+  background-position: 17px 79%;
+  background-size: 243px 38px;
+}
+
+.feature-panel.generate {
+  @include svg-background-image("Feature_2_Illustration");
+  background-repeat: no-repeat;
+  background-position: -6px 79%;
+  background-size: 166px 60px;
+}
+
+.feature-panel.migrate {
+  @include svg-background-image("Feature_3_Illustration");
+  background-repeat: no-repeat;
+  background-position: center 79%;
+  background-size: 232px 60px;
+
+  @media screen and (max-width: map-get($breakpoints, small)) {
+    background-position: 17px 79%;
   }
 }

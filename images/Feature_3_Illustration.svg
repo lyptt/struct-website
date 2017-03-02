@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="232px" height="60px" viewBox="0 0 232 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Feature_3_Illustration</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="59.1724138" rx="5"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="48" height="59.1724138" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="48" height="59.1724138" rx="5"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="48" height="59.1724138" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="feature-3" transform="translate(-15.000000, -117.000000)">
+            <g id="Feature_3_Illustration" transform="translate(15.000000, 117.000000)">
+                <ellipse id="Oval-1-Copy-5-Copy-4" fill="#2090F7" cx="61.2" cy="29.5047064" rx="2.5" ry="2.50470636"></ellipse>
+                <ellipse id="Oval-1-Copy-5-Copy-14" fill="#2090F7" cx="76.9" cy="29.5047064" rx="2.5" ry="2.50470636"></ellipse>
+                <ellipse id="Oval-1-Copy-5-Copy-15" fill="#2090F7" cx="92.6" cy="29.5047064" rx="2.5" ry="2.50470636"></ellipse>
+                <path d="M124,32.0094127 C125.380712,32.0094127 126.5,30.8880175 126.5,29.5047064 C126.5,28.1213952 125.380712,27 124,27 C122.619288,27 121.5,28.1213952 121.5,29.5047064 C121.5,30.8880175 122.619288,32.0094127 124,32.0094127 Z" id="Oval-1-Copy-5-Copy-16" fill="#2090F7"></path>
+                <path d="M155.4,32.0094127 C156.780712,32.0094127 157.9,30.8880175 157.9,29.5047064 C157.9,28.1213952 156.780712,27 155.4,27 C154.019288,27 152.9,28.1213952 152.9,29.5047064 C152.9,30.8880175 154.019288,32.0094127 155.4,32.0094127 Z" id="Oval-1-Copy-5-Copy-18" fill="#2090F7"></path>
+                <path d="M139.7,32.0094127 C141.080712,32.0094127 142.2,30.8880175 142.2,29.5047064 C142.2,28.1213952 141.080712,27 139.7,27 C138.319288,27 137.2,28.1213952 137.2,29.5047064 C137.2,30.8880175 138.319288,32.0094127 139.7,32.0094127 Z" id="Oval-1-Copy-5-Copy-21" fill="#2090F7"></path>
+                <path d="M171.1,32.0094127 C172.480712,32.0094127 173.6,30.8880175 173.6,29.5047064 C173.6,28.1213952 172.480712,27 171.1,27 C169.719288,27 168.6,28.1213952 168.6,29.5047064 C168.6,30.8880175 169.719288,32.0094127 171.1,32.0094127 Z" id="Oval-1-Copy-5-Copy-19" fill="#2090F7"></path>
+                <path d="M108.3,32.0094127 C109.680712,32.0094127 110.8,30.8880175 110.8,29.5047064 C110.8,28.1213952 109.680712,27 108.3,27 C106.919288,27 105.8,28.1213952 105.8,29.5047064 C105.8,30.8880175 106.919288,32.0094127 108.3,32.0094127 Z" id="Oval-1-Copy-5-Copy-17" fill="#2090F7"></path>
+                <g id="xcode-project-copy-2" transform="translate(184.000000, 0.000000)">
+                    <use id="Rectangle-7" stroke="#2090F7" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <polygon id="Path-29" fill="#2090F7" points="37.0195612 1.11739492 46.9453373 11.0431711 46.9006373 4.34072397 45.7918444 1.89938372 43.6822977 1.17266186 40.4735529 0.797115337"></polygon>
+                </g>
+                <g id="star" transform="translate(194.000000, 14.000000)" fill="#2090F7">
+                    <ellipse id="Oval-1" cx="13.5280899" cy="3.16831683" rx="3.14606742" ry="3.16831683"></ellipse>
+                    <ellipse id="Oval-1-Copy-3" cx="3.14606742" cy="22.1782178" rx="3.14606742" ry="3.16831683"></ellipse>
+                    <ellipse id="Oval-1-Copy-4" cx="13.5280899" cy="28.8316832" rx="3.14606742" ry="3.16831683"></ellipse>
+                    <path d="M24.8539326,25.6633663 C26.5914576,25.6633663 28,24.2448626 28,22.4950495 C28,20.7452364 26.5914576,19.3267327 24.8539326,19.3267327 C23.1164075,19.3267327 21.7078652,20.7452364 21.7078652,22.4950495 C21.7078652,24.2448626 23.1164075,25.6633663 24.8539326,25.6633663 L24.8539326,25.6633663 Z" id="Oval-1-Copy-5"></path>
+                    <ellipse id="Oval-1-Copy" cx="24.8539326" cy="9.82178218" rx="3.14606742" ry="3.16831683"></ellipse>
+                    <path d="M3.14606742,13.3069307 C4.88359247,13.3069307 6.29213483,11.8884269 6.29213483,10.1386139 C6.29213483,8.38880079 4.88359247,6.97029703 3.14606742,6.97029703 C1.40854236,6.97029703 0,8.38880079 0,10.1386139 C0,11.8884269 1.40854236,13.3069307 3.14606742,13.3069307 L3.14606742,13.3069307 Z" id="Oval-1-Copy-2"></path>
+                    <ellipse id="Oval-1" cx="13.7068437" cy="10.5683756" rx="1.35852911" ry="1.38025684"></ellipse>
+                    <ellipse id="Oval-1-Copy-3" cx="9.22369764" cy="18.8499167" rx="1.35852911" ry="1.38025684"></ellipse>
+                    <ellipse id="Oval-1-Copy-4" cx="13.7068437" cy="21.748456" rx="1.35852911" ry="1.38025684"></ellipse>
+                    <ellipse id="Oval-1-Copy-5" cx="18.7763024" cy="18.9879424" rx="1.35852911" ry="1.38025684"></ellipse>
+                    <ellipse id="Oval-1-Copy" cx="18.7763024" cy="13.466915" rx="1.35852911" ry="1.38025684"></ellipse>
+                    <path d="M9.22369764,14.9851975 C9.97399257,14.9851975 10.5822268,14.3672355 10.5822268,13.6049407 C10.5822268,12.8426459 9.97399257,12.2246838 9.22369764,12.2246838 C8.47340276,12.2246838 7.86516854,12.8426459 7.86516854,13.6049407 C7.86516854,14.3672355 8.47340276,14.9851975 9.22369764,14.9851975 L9.22369764,14.9851975 Z" id="Oval-1-Copy-2"></path>
+                </g>
+                <g id="xcode-project">
+                    <use id="Rectangle-7" stroke="#2090F7" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
+                    <polygon id="Path-29" fill="#2090F7" points="37.0195612 1.11739492 46.9453373 11.0431711 46.9006373 4.34072397 45.7918444 1.89938372 43.6822977 1.17266186 40.4735529 0.797115337"></polygon>
+                    <text id="XCODE" font-family="OpenSans-Bold, Open Sans" font-size="10" font-weight="bold" letter-spacing="0.128571421" fill="#2090F7">
+                        <tspan x="7" y="50">XCODE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
