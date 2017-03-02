@@ -1,0 +1,55 @@
+@import "../vars";
+@import "../mixins/svg-image";
+@import "../mixins/unselectable";
+
+.feature-panel {
+  border: 2px #E1E1E1 solid;
+  margin-top: 40px;
+  margin-right: 35px;
+  min-height: 200px;
+  display: inline-block;
+  flex: 1;
+  padding: 18px;
+
+  .title {
+    color: #2090F7;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
+
+  .body {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: map-get($breakpoints, small)) {
+    width: calc(100% - 36px);
+    margin: 0;
+    margin-bottom: 35px;
+    flex: none;
+  }
+}
+
+.feature-panel:hover, .feature-panel:focus, .feature-panel:active {
+  border: 2px #2090F7 solid;
+}
+
+.feature-panel, .feature-panel:hover, .feature-panel:active, .feature-panel:visited {
+  transition: border .25s ease-in-out;
+}
+
+.feature-panel.first {
+  @media screen and (max-width: map-get($breakpoints, small)) {
+    margin-top: 40px;
+  }
+}
+
+.feature-panel.last {
+  margin-right: 0;
+  @media screen and (max-width: map-get($breakpoints, small)) {
+    margin-bottom: 0;
+  }
+}
