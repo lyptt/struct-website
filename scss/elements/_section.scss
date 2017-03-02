@@ -3,8 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 54px;
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 54px;
 
     h2:first-of-type {
@@ -16,6 +16,45 @@
     p {
       color: #646464;
       width: 100%;
+    }
+  }
+
+  section.bottom-cta {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+
+    .caption {
+      flex: 1;
+      font-size: 0.8 * 1rem;
+      font-weight: 600;
+      color: #646464;
+      max-width: 35%;
+      text-align: left;
+      margin-left: auto;
+      margin-right: 22px;
+    }
+
+    .button, .button:visited {
+      flex: 1;
+      display: inline-block;
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+      color: $brand-colour;
+      max-width: 35%;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      margin-right: auto;
+      margin-left: 22px;
+      border: 2px solid $brand-colour;
+      transition: all .25s ease-in-out;
+      transition-property: color, border;
+      text-transform: uppercase;
+    }
+    .button:hover, .button:active {
+      border: 2px solid lighten($brand-colour, 20%);
+      color: lighten($brand-colour, 20%);
     }
   }
 
