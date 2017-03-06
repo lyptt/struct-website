@@ -26,12 +26,17 @@ gulp.task('sass', function () {
     .pipe(browserSync.stream({match: '**/*.css'}))
 })
 
+gulp.task('copy-flat-resources', function() {
+  return gulp.src(['favicon/**/*'])
+    .pipe(gulp.dest('build/'))
+})
+
 gulp.task('copy-resources', function() {
   return gulp.src(['images/**/*', 'css/**/*'], { "base" : "." })
     .pipe(gulp.dest('build'))
 })
 
-gulp.task('build', ['sass', 'copy-resources'], function() {
+gulp.task('build', ['sass', 'copy-resources', 'copy-flat-resources'], function() {
   return gulp.src('index.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('build'));
